@@ -1,7 +1,6 @@
 // Every second check if the DOM has changed
 // (what the user sees on the screen)
 // and grab the current content
-console.log("INJECTED");
 let bodyContent = '';
 setInterval(async () => {
   // read the content in the body tag
